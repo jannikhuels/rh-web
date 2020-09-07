@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Ingenieurbüro Richters &amp; Hüls</title>
-    <link>https://github.com/jannikhuels/rh-web/categories/</link>
+    <link>https://jannikhuels.github.io/rh-web/categories/</link>
     <description>Recent content in Categories on Ingenieurbüro Richters &amp; Hüls</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-DE</language>
     
-	<atom:link href="https://github.com/jannikhuels/rh-web/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jannikhuels.github.io/rh-web/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

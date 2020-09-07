@@ -3,20 +3,20 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://github.com/jannikhuels/rh-web/jobs/</loc>
+    <loc>https://jannikhuels.github.io/rh-web/jobs/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://github.com/jannikhuels/rh-web/categories/</loc>
+    <loc>https://jannikhuels.github.io/rh-web/categories/</loc>
   </url>
   
   <url>
-    <loc>https://github.com/jannikhuels/rh-web/</loc>
+    <loc>https://jannikhuels.github.io/rh-web/</loc>
   </url>
   
   <url>
-    <loc>https://github.com/jannikhuels/rh-web/tags/</loc>
+    <loc>https://jannikhuels.github.io/rh-web/tags/</loc>
   </url>
   
 </urlset>
