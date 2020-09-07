@@ -1,6 +1,6 @@
 # Main config file for icon theme.
 theme = "hugo-icon"
-baseURL = "https://github.com/jannikhuels/rh-web/"
+baseURL = "https://jannikhuels.github.io/rh-web/"
 languageCode = "de-DE"
 title = "Ingenieurbüro Richters & Hüls"
 publishDir = "docs"
