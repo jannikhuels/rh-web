@@ -35,34 +35,34 @@ publishDir = "docs"
     enable = true
 
     [[params.mission.images.list]]
-      img = "images/img_3.jpg"
+      img = "images/industry.jpeg"
     [[params.mission.images.list]]
-      img = "images/img_2.jpg"
+      img = "images/traffic.jpeg"
     [[params.mission.images.list]]
-      img = "images/img_1.jpg"
+      img = "images/wind.jpeg"
     [[params.mission.images.list]]
-      img = "images/img_4.jpg"
+      img = "images/cows.jpeg"
 
   [[params.mission.item]]
     weight = 1
     name = "marketing"
     title = "Planung"
-    subtitle = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptate laborum sapiente officiis molestiaea."
-    description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae aliquid aperiam eveniet officia molestiae temporibus beatae dolores dignissimos aspernatur eius doloremque ad, eaque pariatur, repellendus illum, nostrum velit necessitatibus molestias.</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+    subtitle = "Mit unserer Expertise im Immissionsschutz und über 25-jähriger Unternehmenserfahrung unterstützen wir Sie in Ihren Vorhaben."
+    #description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae aliquid aperiam eveniet officia molestiae temporibus beatae dolores dignissimos aspernatur eius doloremque ad, eaque pariatur, repellendus illum, nostrum velit necessitatibus molestias.</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
 
   [[params.mission.item]]
     weight = 2
     name = "analysis"
     title = "Prognose"
-    subtitle = "Quam quasi illum expedita dicta nemo fugit reprehenderit similique! Corporis praesentium magnam sequi."
-    description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla explicabo, molestiae eaque fugiat dolores est esse, doloremque placeat assumenda corrupti officia dolorum. Sunt saepe ut, explicabo consectetur, nostrum illo est.</p><ul class='checked'><li>Free HTML5 Templates</li><li>Free Bootstrap Templates</li><li>Free HTML5 Bootstrap Templates</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+    subtitle = "Unsere qualifizierten Mitarbeiterinnen und Mitarbeitern prognostizieren mit modernsten Softwareanwendungen immissionsbedingte Kennzahlen."
+    #description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla explicabo, molestiae eaque fugiat dolores est esse, doloremque placeat assumenda corrupti officia dolorum. Sunt saepe ut, explicabo consectetur, nostrum illo est.</p><ul class='checked'><li>Free HTML5 Templates</li><li>Free Bootstrap Templates</li><li>Free HTML5 Bootstrap Templates</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
 
   [[params.mission.item]]
     weight = 3
     name = "strategy"
     title = "Beratung"
-    subtitle = "Magnam iste obcaecati illo laboriosam amet. Dignissimos sed quis voluptatum corporis adipisci amet."
-    description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolore illum expedita placeat debitis, dignissimos obcaecati et modi. Possimus id dicta consequuntur veritatis, reiciendis at expedita voluptate sint distinctio eligendi!</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+    subtitle = "Wir beraten Sie vertrauensvoll und umfangreich. Zum Schutz der Umwelt und der Menschen unter Beachtung betriebswirtschaftlicher Bedingungen."
+    #description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolore illum expedita placeat debitis, dignissimos obcaecati et modi. Possimus id dicta consequuntur veritatis, reiciendis at expedita voluptate sint distinctio eligendi!</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
 
 # Services section
 [params.services]
@@ -73,33 +73,33 @@ publishDir = "docs"
   description = "Als unabhängiges Ingenieurbüro bieten wir seit mehr als 25 Jahren Planung, Messung, Gutachten und Beratung im Immissionschutz an. Dabei bündeln wir unsere Kompetenz in den Kerngebieten Luftreinhaltung und Lärmbekämpfung."
 
   [[params.services.item]]
-    icon = "icon-present"
-    title = "Web Development"
+    #icon = "icon-present"
+    title = "Geräuschprognosen"
     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
 
   [[params.services.item]]
-    icon = "icon-eye"
-    title = "Retina Ready"
+    #icon = "icon-eye"
+    title = "Messung von Geräuschimmissionen"
     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
 
   [[params.services.item]]
-    icon = "icon-paper-plane"
-    title = "Light Speed"
+    #icon = "icon-paper-plane"
+    title = "Messung von Geräuschemissionen"
     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
 
   [[params.services.item]]
-    icon = "icon-pencil"
-    title = "Copyrighting"
+    #icon = "icon-pencil"
+    title = "Geruchsprognosen"
     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
 
   [[params.services.item]]
-    icon = "icon-rocket"
-    title = "Load Fast"
+    #icon = "icon-rocket"
+    title = "Staubprognosen"
     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
 
   [[params.services.item]]
-    icon = "icon-support"
-    title = "Customer Support"
+    #icon = "icon-support"
+    title = "Genehmigungsverfahren"
     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
 
 # Work section
@@ -159,13 +159,13 @@ publishDir = "docs"
     img = "images/person1.jpg"
     email = "#"
     telephone = "#"
-    facebook = "#"
-    twitter = "#"
-    dribbble = "#"
-    instagram = "#"
-    github = "#"
-    linkedin = "#"
-    whatsapp = "#"
+    #facebook = "#"
+    #twitter = "#"
+    #dribbble = "#"
+    #instagram = "#"
+    #github = "#"
+    #linkedin = "#"
+    #whatsapp = "#"
 
   [[params.team.item]]
     name = "Alice Doe"
@@ -174,12 +174,12 @@ publishDir = "docs"
     img = "images/person2.jpg"
     email = "#"
     telephone = "#"
-    facebook = "#"
-    twitter = "#"
-    dribbble = "#"
-    instagram = "#"
-    github = "#"
-    whatsapp = "#"
+    #facebook = "#"
+    #twitter = "#"
+    #dribbble = "#"
+    #instagram = "#"
+    #github = "#"
+    #whatsapp = "#"
 
   [[params.team.item]]
     name = "John Doe"
@@ -188,12 +188,44 @@ publishDir = "docs"
     img = "images/person3.jpg"
     email = "#"
     telephone = "#"
-    facebook = "#"
-    twitter = "#"
-    dribbble = "#"
-    instagram = "#"
-    github = "#"
-    whatsapp = "#"
+    #facebook = "#"
+    #twitter = "#"
+    #dribbble = "#"
+    #instagram = "#"
+    #github = "#"
+    #whatsapp = "#"
+
+  [[params.team.item]]
+    name = "Jean Doe"
+    position = "Chief legend"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    img = "images/person1.jpg"
+    email = "#"
+    telephone = "#"
+
+  [[params.team.item]]
+    name = "Jean Doe"
+    position = "Chief legend"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    img = "images/person1.jpg"
+    email = "#"
+    telephone = "#"
+
+  [[params.team.item]]
+    name = "Jean Doe"
+    position = "Chief legend"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    img = "images/person1.jpg"
+    email = "#"
+    telephone = "#"
+
+  [[params.team.item]]
+    name = "Du"
+    position = "Chief legend"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    img = "images/person1.jpg"
+    email = "#"
+    telephone = "#"
 
   # [[params.team.item]]
   #   name = "Jason Doe"
@@ -212,13 +244,13 @@ publishDir = "docs"
 # Contact section
 [params.contact]
   enable = true
-  title = "Get In Touch"
-  message = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-  name_placeholder = "Your name"
-  email_placeholder = "Your email"
-  email_disclaimer = "We'll never share your email with anyone else."
-  message_placeholder = "Please enter a message."
-  button_text = "Submit"
+  title = "Kontakt"
+  message = "Nichts ist uns wichtiger als persönlicher Kontakt."
+  name_placeholder = "Name"
+  email_placeholder = "eMail"
+  email_disclaimer = "Wir werden keine Inhalte mit Dritten teilen."
+  message_placeholder = "Nachricht."
+  button_text = "Abschicken"
 
 # Footer section
 # Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
