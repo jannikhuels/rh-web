@@ -3,7 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://jannikhuels.github.io/rh-web/</loc>
+  </url>
+  
+  <url>
     <loc>https://jannikhuels.github.io/rh-web/jobs/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jannikhuels.github.io/rh-web/kontakt/</loc>
     <priority>0</priority>
   </url>
   
@@ -12,11 +21,43 @@
   </url>
   
   <url>
-    <loc>https://jannikhuels.github.io/rh-web/</loc>
+    <loc>https://jannikhuels.github.io/rh-web/leistungen/genehmigungsverfahren/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jannikhuels.github.io/rh-web/leistungen/geruchsprognosen/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jannikhuels.github.io/rh-web/leistungen/gerauschemissionsmessungen/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jannikhuels.github.io/rh-web/leistungen/gerauschimmissionsmessungen/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jannikhuels.github.io/rh-web/leistungen/geraeuschprognosen/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jannikhuels.github.io/rh-web/team/jannikhuels/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jannikhuels.github.io/rh-web/leistungen/staubprognosen/</loc>
   </url>
   
   <url>
     <loc>https://jannikhuels.github.io/rh-web/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jannikhuels.github.io/rh-web/team/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jannikhuels.github.io/rh-web/leistungen/</loc>
   </url>
   
 </urlset>

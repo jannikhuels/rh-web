@@ -8,7 +8,7 @@ publishDir = "docs"
 # Metadata
 [params]
   author = "Ingenieurbüro Richters & Hüls"
-  description = "Cool description"
+  description = "Experten für Planung, Messung, Gutachten und Beratung im Immissionsschutz."
 
 # Hero section (from here on is for icon theme)
 [params.hero]
@@ -17,246 +17,67 @@ publishDir = "docs"
   description = "Schutz von Mensch und Umwelt."
   companylogo = "images/logo@2x.png"
 
+# menu
+[ menu ]
+  [[ menu.main ]]
+    name = "Home"
+    identifier = "home"
+    url = "/"
+    weight = 1
+  [[ menu.main ]]
+    name = "Leistungen"
+    url = "/leistungen/"
+    identifier = "leistungen"
+    weight = 2
+  [[ menu.main ]]
+    name = "Team"
+    url = "/team/"
+    identifier = "team"
+    weight = 3
+  [[ menu.main ]]
+    name = "Jobs"
+    url = "/jobs/"
+    identifier = "jobs"
+    weight = 4
+  [[ menu.main ]]
+    name = "Kontakt"
+    url = "/kontakt/"
+    identifier = "kontakt"
+    weight = 5
+
 # Navigation section
 [params.nav]
-  mission = "Überblick"
-  services = "Leistungen"
-  team = "Team"
+  mission = "Informationen"
+  services = "Überblick"
+  team = "Über uns"
   contact = "Kontakt"
   jobs = "Jobs"
   # Include logo instead if HOME:
   logo = "images/logo-small@2x.png"
-
-# Mission section
-[params.mission]
-  enable = true
-
-  [params.mission.images]
-    enable = true
-
-    [[params.mission.images.list]]
-      img = "images/industry.jpeg"
-    [[params.mission.images.list]]
-      img = "images/traffic.jpeg"
-    [[params.mission.images.list]]
-      img = "images/wind.jpeg"
-    [[params.mission.images.list]]
-      img = "images/cows.jpeg"
-
-  [[params.mission.item]]
-    weight = 1
-    name = "marketing"
-    title = "Planung"
-    subtitle = "Mit unserer Expertise im Immissionsschutz und über 25-jähriger Unternehmenserfahrung unterstützen wir Sie in Ihren Vorhaben."
-    #description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae aliquid aperiam eveniet officia molestiae temporibus beatae dolores dignissimos aspernatur eius doloremque ad, eaque pariatur, repellendus illum, nostrum velit necessitatibus molestias.</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
-
-  [[params.mission.item]]
-    weight = 2
-    name = "analysis"
-    title = "Prognose"
-    subtitle = "Unsere qualifizierten Mitarbeiterinnen und Mitarbeitern prognostizieren mit modernsten Softwareanwendungen immissionsbedingte Kennzahlen."
-    #description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla explicabo, molestiae eaque fugiat dolores est esse, doloremque placeat assumenda corrupti officia dolorum. Sunt saepe ut, explicabo consectetur, nostrum illo est.</p><ul class='checked'><li>Free HTML5 Templates</li><li>Free Bootstrap Templates</li><li>Free HTML5 Bootstrap Templates</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
-
-  [[params.mission.item]]
-    weight = 3
-    name = "strategy"
-    title = "Beratung"
-    subtitle = "Wir beraten Sie vertrauensvoll und umfangreich. Zum Schutz der Umwelt und der Menschen unter Beachtung betriebswirtschaftlicher Bedingungen."
-    #description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolore illum expedita placeat debitis, dignissimos obcaecati et modi. Possimus id dicta consequuntur veritatis, reiciendis at expedita voluptate sint distinctio eligendi!</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
-
-# Services section
-[params.services]
-  enable = true
-  video = false
-  vidlink = "https://vimeo.com/channels/staffpicks/93951774"
-  title = "Unsere Leistungen"
-  description = "Als unabhängiges Ingenieurbüro bieten wir seit mehr als 25 Jahren Planung, Messung, Gutachten und Beratung im Immissionschutz an. Dabei bündeln wir unsere Kompetenz in den Kerngebieten Luftreinhaltung und Lärmbekämpfung."
-
-  [[params.services.item]]
-    #icon = "icon-present"
-    title = "Geräuschprognosen"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-
-  [[params.services.item]]
-    #icon = "icon-eye"
-    title = "Geräuschimmissionsmessungen"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-
-  [[params.services.item]]
-    #icon = "icon-paper-plane"
-    title = "Geräuschemissionsmessungen"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-
-  [[params.services.item]]
-    #icon = "icon-pencil"
-    title = "Geruchsprognosen"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-
-  [[params.services.item]]
-    #icon = "icon-rocket"
-    title = "Staubprognosen"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-
-  [[params.services.item]]
-    #icon = "icon-support"
-    title = "Genehmigungsverfahren"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-
-# Work section
-[params.work]
-  enable = false
-
-  [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
-    img = "images/img_1.jpg"
-
-  [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
-    img = "images/img_2.jpg"
-
-  [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
-    img = "images/img_3.jpg"
-
-  [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
-    img = "images/img_2.jpg"
-
-  [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
-    img = "images/img_3.jpg"
-
-  [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
-    img = "images/img_2.jpg"
-
-  [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
-    img = "images/img_3.jpg"
-
-  [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
-    img = "images/img_4.jpg"
-
-# Team section
-[params.team]
-  enable = true
-  title = "Team"
-  description = "Unser Team mischt langjährige Erfahrung und junge Dynamik. Wir betreiben Immissionsschutz stets vor dem Hintergrund, auch die wirtschaftliche Wettbewerbsfähigkeit unserer Kunden zu berücksichtigen."
-
-  [[params.team.item]]
-    name = "Jean Doe"
-    position = "Chief legend"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-    img = "images/person1.jpg"
-    email = "#"
-    telephone = "#"
-    #facebook = "#"
-    #twitter = "#"
-    #dribbble = "#"
-    #instagram = "#"
-    #github = "#"
-    #linkedin = "#"
-    #whatsapp = "#"
-
-  [[params.team.item]]
-    name = "Alice Doe"
-    position = "Chief overlord"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-    img = "images/person2.jpg"
-    email = "#"
-    telephone = "#"
-    #facebook = "#"
-    #twitter = "#"
-    #dribbble = "#"
-    #instagram = "#"
-    #github = "#"
-    #whatsapp = "#"
-
-  [[params.team.item]]
-    name = "John Doe"
-    position = "Chief haranguer"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-    img = "images/person3.jpg"
-    email = "#"
-    telephone = "#"
-    #facebook = "#"
-    #twitter = "#"
-    #dribbble = "#"
-    #instagram = "#"
-    #github = "#"
-    #whatsapp = "#"
-
-  [[params.team.item]]
-    name = "Jean Doe"
-    position = "Chief legend"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-    img = "images/person1.jpg"
-    email = "#"
-    telephone = "#"
-
-  [[params.team.item]]
-    name = "Jean Doe"
-    position = "Chief legend"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-    img = "images/person1.jpg"
-    email = "#"
-    telephone = "#"
-
-  [[params.team.item]]
-    name = "Jean Doe"
-    position = "Chief legend"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-    img = "images/person1.jpg"
-    email = "#"
-    telephone = "#"
-
-  [[params.team.item]]
-    name = "Du"
-    position = "Chief legend"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-    img = "images/person1.jpg"
-    email = "#"
-    telephone = "#"
-
-  # [[params.team.item]]
-  #   name = "Jason Doe"
-  #   position = "Chief haranguer"
-  #   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-  #   img = "images/person3.jpg"
-  #   email = "#"
-  #   telephone = "#"
-  #   facebook = "#"
-  #   twitter = "#"
-  #   dribbble = "#"
-  #   instagram = "#"
-  #   github = "#"
-  #   whatsapp = "#"
-
-# Contact section
-[params.contact]
-  enable = true
-  title = "Kontakt"
-  message = "Nichts ist uns wichtiger als persönlicher Kontakt."
-  name_placeholder = "Name"
-  email_placeholder = "eMail"
-  email_disclaimer = "Wir werden keine Inhalte mit Dritten teilen."
-  message_placeholder = "Nachricht."
-  button_text = "Abschicken"
+  [[params.nav.external]]
+    name = "Leistungen"
+    link = "leistungen"
+  [[params.nav.external]]
+    name = "Team"
+    link = "team"
+  [[params.nav.external]]
+    name = "Jobs"
+    link = "jobs"
+  [[params.nav.external]]
+    name = "Kontakt"
+    link = "kontakt"
 
 # Footer section
 # Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
 [params.footer]
   enable = true
   note = "<p><small>&copy; 2016 Free HTML5 Template. All Rights Reserved. <br> Designed by <a href='http://freehtml5.co/' target='_blank'>FreeHTML5.co</a> Demo Images: <a href='http://pexels.com/' target='_blank'>Pexels</a><br>Hugo port by <a href='https://github.com/SteveLane/' target='_blank'>SteveLane</a></small></p>"
+  companyname = "Ingenieurbüro Richters & Hüls"
+  street = "Erhardstraße 9"
+  city = "48683 Ahaus"
+  firsttelephone = "+49 2561 43003"
+  secondtelephone = "+49 2561 43004"
+  fax = "+49 2561 43005"
   github = "#"
   twitter = "#"
   facebook = "#"
@@ -264,6 +85,13 @@ publishDir = "docs"
   linkedin = "#"
   instagram = "#"
 
-[params.jobs]
-  enable = true
+[params.contact]
+  enable = false
+  title = "Kontakt"
+  message = "Nichts ist uns wichtiger als der persönliche Kontakt."
+  name_placeholder = "Name"
+  email_placeholder = "eMail"
+  email_disclaimer = "Wir werden keine Informationen mit Dritten teilen."
+  message_placeholder = "Nachricht."
+  button_text = "Absenden"
   

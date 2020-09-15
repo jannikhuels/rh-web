@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+  <head>
+    {{ partial "header.html" . }}
+  </head>
+  <body>
+
+    <!-- Loader -->
+    <div class="fh5co-loader"></div>
+    <div class="fh5co-page">
+      <div id="fh5co-container">
+	
+  {{ partial "nav.html" . }}
+  
+  <div id="fh5co-services" data-section="services">
+    <div class="container">
+      <div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
+        <h2>{{ .Title | markdownify }}</h2>
+        <p>{{ .Description | markdownify }}</p>
+    </div>
+    <div class="col-md-12 longtext">
+       {{ .Content }}
+    </div>  
+    <div class="col-md-12 text-center team">
+        <p><a href="{{ "team" | absURL }}" onclick="location.href='{{ "kontakt" | absURL }}'" class="btn btn-primary btn-outline fh5co-content-nav btn-team" data-nav-section="contact">Wir beraten Sie gerne</a></p>
+    </div>     
+   
+    </div>
+</div> <!-- END fh5co-services -->
+
+
+      
+      </div>
+    </div>
+    
+    {{ partial "js.html" .}}
+
+
+    
+  </body>
+</html>

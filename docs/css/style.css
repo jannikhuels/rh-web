@@ -37,6 +37,12 @@ p {
   margin-bottom: 30px;
 }
 
+.longtext {
+  color: #383838;
+  font-weight: 350;
+  font-size: 16px;
+}
+
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
@@ -172,6 +178,9 @@ p {
 .btn-outline:hover, .btn-outline:focus, .btn-outline:active {
   box-shadow: none;
 }
+.btn-team {
+  margin-top:60px;
+}
 
 .form-control {
   box-shadow: none;
@@ -227,7 +236,7 @@ p {
 #fh5co-home .fh5co-copy-inner h1, #fh5co-home .fh5co-copy-inner h2 {
   margin: 0;
   padding: 0;
-  font-family: "Avenir";
+  font-family: "Avenir", "Roboto";
 }
 #fh5co-home .fh5co-copy-inner h1 {
   color: #fff;
@@ -273,11 +282,15 @@ p {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 13px;
-  font-weight: 400;
+  font-weight: 300;
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
   *display: inline;
+}
+.fh5co-main-nav .fh5co-menu-1 a.external {
+  color: rgb(167, 167, 167);
+  font-weight:400;
 }
 .fh5co-main-nav .fh5co-menu-1 a:hover, .fh5co-main-nav .fh5co-menu-1 a:focus, .fh5co-main-nav .fh5co-menu-1 a:active {
   outline: none;
@@ -287,8 +300,12 @@ p {
   font-weight: 400;
   color: #000;
 }
+.fh5co-main-nav .fh5co-menu-1 a.active.external {
+  font-weight: 500;
+  color: #000;
+}
 .fh5co-main-nav .fh5co-menu-1 {
-  width: 100%;
+  width:100%;
 }
 .fh5co-main-nav .fh5co-menu-1 a {
   vertical-align: middle;
@@ -493,11 +510,11 @@ p {
   transition: 0.5s;
 }
 .fh5co-tabs-container .fh5co-tab-content h2 {
-  font-size: 20px;
-  font-weight: 400;
+  font-size: 18px;
+  font-weight: 300;
   line-height: 1.8;
   margin-bottom: 30px;
-  color: #7b7b7b;
+  color: #383838;
 }
 .fh5co-tabs-container .fh5co-tab-content.active {
   display: block;
@@ -622,6 +639,7 @@ p {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+  cursor: pointer;
 }
 #fh5co-services .service .icon {
   text-align: center;
@@ -912,6 +930,33 @@ p {
   -moz-box-shadow: inset 0px 10px 21px -15px rgba(0, 0, 0, 0.12);
   box-shadow: inset 0px 10px 21px -15px rgba(0, 0, 0, 0.12);
 }
+
+#fh5co-footer ul.contact {
+  list-style-type: none;
+  display: block;
+  font-size: 14px;
+}
+
+#fh5co-footer ul.contact li.name {
+  font-weight: 400;
+  color: #383838;
+}
+
+#fh5co-footer ul.links {
+  margin-left: 30%;
+  list-style-type: none;
+}
+
+#fh5co-footer ul.links a {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+#fh5co-footer ul.links a:hover {
+  text-decoration: none;
+}
+
 @media screen and (max-width: 768px) {
   #fh5co-footer {
     padding: 3em 0;

@@ -222,13 +222,11 @@
 	// Page Nav
 	var clickMenu = function() {
 		var topVal = ( $(window).width() < 769 ) ? 0 : 58;
-
 		$(window).resize(function(){
 			topVal = ( $(window).width() < 769 ) ? 0 : 58;		
 		});
 		$('.fh5co-main-nav a:not([class="external"]), #fh5co-offcanvas a:not([class="external"]), a.fh5co-content-nav:not([class="external"])').click(function(event){
 			var section = $(this).data('nav-section');
-
 				if ( $('div[data-section="' + section + '"]').length ) {
 
 					$('html, body').animate({

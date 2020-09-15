@@ -1,0 +1,77 @@
+{{ $IsHome := .IsHome }}
+<div id="fh5co-team" data-section="team">
+    <div class="container equal">
+      {{ range (where site.Sections "Section" "team") }}
+      <div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
+        <h2>{{ .Title }}</h2>
+        <p>{{ .Description | markdownify }}</p>
+      </div>
+          {{ if not $IsHome }}
+      {{ range .Pages }}
+          <div class="col-md-4 col-xs-12">
+            <div class="person">
+          <img src="{{ .Params.Image | absURL }}" alt="" class="img-responsive">
+          <h3>{{ .Title }}</h3>
+          <h4>{{ .Params.Position }}</h4>
+          <p>{{ .Description | markdownify }}</p>
+          <ul class="social">
+            {{ if isset .Params "telephone" }}
+            <li><a href="tel:{{ .Params.telephone }}"><i class="icon-phone"></i></a></li>
+            {{ end }}
+            {{ if isset .Params "email" }}
+            <li><a href="mailto:{{ .Params.email }}"><i class="icon-envelope"></i></a></li>
+            {{ end }}
+            {{ if isset . "facebook" }}
+            <li><a href="{{ .facebook }}"><i class="icon-facebook"></i></a></li>
+            {{ end }}
+            {{ if isset . "twitter" }}
+            <li><a href="{{ .twitter }}"><i class="icon-twitter"></i></a></li>
+            {{ end }}
+            {{ if isset . "dribbble" }}
+            <li><a href="{{ .dribbble }}"><i class="icon-dribbble"></i></a></li>
+            {{ end }}
+            {{ if isset . "instagram" }}
+            <li><a href="{{ .instagram }}"><i class="icon-instagram"></i></a></li>
+            {{ end }}
+            {{ if isset . "github" }}
+            <li><a href="{{ .github }}"><i class="icon-github"></i></a></li>
+            {{ end }}
+            {{ if isset . "linkedin" }}
+            <li><a href="{{ .linkedin }}"><i class="icon-linkedin"></i></a></li>
+            {{ end }}
+            {{ if isset . "whatsapp" }}
+            <li><a href="{{ .whatsapp }}"><i class="icon-whatsapp"></i></a></li>
+            {{ end }}
+          </ul>
+            </div>
+          </div>
+          {{ end }}
+          {{ end }}
+
+          <div id="fh5co-gallery">
+            {{ range .Params.titleimages.list }}
+            <a href="{{ .image | absURL }}" class="fh5co-item image-popup" style="background-image: url({{ .image | absURL }})">
+              <div class="fh5co-overlay"></div>
+              <div class="fh5co-copy">
+                <div class="fh5co-copy-inner">
+              <h2>{{ .title | markdownify }}</h2>
+              {{ if isset . "subtitle" }}
+              <h3>{{ .subtitle | markdownify }}</h3>
+              {{ end }}
+                </div>
+              </div>
+            </a>
+            {{ end }}
+          </div> <!-- END fh5co-gallery -->
+      
+          {{ if $IsHome }}    
+      <div class="col-md-12 text-center team">
+          <p><a href="{{ "team" | absURL }}" onclick="location.href='{{ "team" | absURL }}'" class="btn btn-primary btn-outline fh5co-content-nav btn-team" data-nav-section="contact">Mehr über uns</a></p>
+      </div>
+      {{ end }}
+      {{ end }}
+      
+      
+    </div>
+</div> <!-- END fh5co-team -->
+  

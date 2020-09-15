@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+  <head>
+    {{ partial "header.html" . }}
+  </head>
+  <body>
+
+    <!-- Loader -->
+    <div class="fh5co-loader"></div>
+    <div class="fh5co-page">
+      <div id="fh5co-container">
+	
+  {{ partial "nav.html" . }}
+  
+  {{ partial "team.html" . }}
+
+      
+      
+      </div>
+    </div>
+    
+    {{ partial "js.html" .}}
+
+
+    
+  </body>
+</html>
